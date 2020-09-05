@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+	<link rel="stylesheet" href="style.css">
+    </head>
+    <body style="margin:0;">
+	<nav>
+		  <a id="ret-but" href="index.html">Google Search</a>
+		  <img style="float:left; padding:15px; width:100px" src="googlelogo.png">
+	</nav>
+
+	<p style="color:#d93025; font-size:20px; padding:20px; margin:0;">Advanced Search</p>
+	<div style="border-bottom:1px solid #ebebeb;"></div>
+
+	<div style="margin:20px;">
+	 <form action="https://google.com/search"> 
+		 <label id="lab-adv">all these words:</label>
+		<input id="inp-adv" type="text" name="q">
+		<label id="lab-adv">this exact word or phrase:</label>
+		<input id="inp-adv" type="text" name="as_epq"><br>
+		<label id="lab-adv">any of these words:</label>
+		<input id="inp-adv" type="text" name="as_oq"><br>
+		<label id="lab-adv">none of these words:</label>
+		<input id="inp-adv" type="text" name="as_eq"><br>
+		<input id="ret-but" style="float:left; clear:left; border-color:#4d90fe;" type="submit" value="Advanced search">
+	</form>
+	</div>
+    </body>
+</html>
